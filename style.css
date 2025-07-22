@@ -3,12 +3,21 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("background.png") no-repeat center center fixed;
   background-size: cover;
   font-family: "inter";
   color: white;
   overflow: hidden;
   user-select: none;
+}
+
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: cover;
+  z-index: 0;
 }
 
 #rain {
